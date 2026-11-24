@@ -1,0 +1,7 @@
+[
+  { "panelFamily": 2309, "packId": 2898, "reviewedName": "Finestra 4 moduli DIN", "widthMm": 82, "heightMm": 55, "evidence": "Idroboard v32 ANA_PACK/ANA_PANNELLI; intentional senza footprint. See docs/PRESET_PANEL_VERIFICATION.md, front presentation correction." },
+  { "panelFamily": 2310, "packId": 2899, "reviewedName": "Finestra 6 moduli DIN", "widthMm": 118, "heightMm": 55, "evidence": "Idroboard v32 ANA_PACK/ANA_PANNELLI; intentional senza footprint. See docs/PRESET_PANEL_VERIFICATION.md, front presentation correction." },
+  { "panelFamily": 2311, "packId": 2900, "reviewedName": "Finestra 8 moduli DIN", "widthMm": 154, "heightMm": 55, "evidence": "Idroboard v32 ANA_PACK/ANA_PANNELLI; intentional senza footprint. See docs/PRESET_PANEL_VERIFICATION.md, front presentation correction." },
+  { "panelFamily": 2312, "packId": 2901, "reviewedName": "Finestra 12 moduli DIN per M125", "widthMm": 226, "heightMm": 55, "evidence": "Idroboard v32 ANA_PACK/ANA_PANNELLI; intentional senza footprint. See docs/PRESET_PANEL_VERIFICATION.md, front presentation correction." },
+  { "panelFamily": 2313, "packId": 2902, "reviewedName": "Finestra 18 moduli DIN per M125", "widthMm": 334, "heightMm": 55, "evidence": "Idroboard v32 ANA_PACK/ANA_PANNELLI; 2890 DXF openings are 324x45 inside 334x55 footprints; examined TiQuadri 2891 PDF omits the four 2902 footprints. See docs/PRESET_PANEL_VERIFICATION.md, front presentation correction." }
+]

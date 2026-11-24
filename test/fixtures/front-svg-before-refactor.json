@@ -1,0 +1,50 @@
+[
+  {
+    "vectors": true,
+    "labels": true,
+    "dimensions": true,
+    "hash": "ac8a0a7b6c30367825e4bbb9b72c1432d89838a0ea7557b1ded0f9a8c8292e8d"
+  },
+  {
+    "vectors": true,
+    "labels": true,
+    "dimensions": false,
+    "hash": "281324a6a700f3db46de5bf2e1211b52c38836ff0a125e5ecae838387426d147"
+  },
+  {
+    "vectors": true,
+    "labels": false,
+    "dimensions": true,
+    "hash": "c4f5d0ee445bf9d06f1c7dbdc027e5bf2e46f4bec91a1394ef0babc32670190e"
+  },
+  {
+    "vectors": true,
+    "labels": false,
+    "dimensions": false,
+    "hash": "00cb196ed407417173138197de87553bbe286ff4cc0ba2d400e32f2e51c67ccb"
+  },
+  {
+    "vectors": false,
+    "labels": true,
+    "dimensions": true,
+    "hash": "4fd9e5a27ca2b5d8e196d625b116a6496988f22f768cf8f5b2cbb7d99f7fbe51"
+  },
+  {
+    "vectors": false,
+    "labels": true,
+    "dimensions": false,
+    "hash": "02eb5e98bb4325e57c4b5233ca58077711de25a288366910c53f14d826fabb68"
+  },
+  {
+    "vectors": false,
+    "labels": false,
+    "dimensions": true,
+    "hash": "75cc63e1afc2f7bfb9c10c56ec338bdd0c1752b4c802c13cdb6d380036b0dbe4"
+  },
+  {
+    "vectors": false,
+    "labels": false,
+    "dimensions": false,
+    "hash": "872960dbefb14a239124a69dda633400b9fb9d44c2eaea4579b7691f486940cb"
+  }
+]

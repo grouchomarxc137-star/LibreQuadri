@@ -1,0 +1,2336 @@
+{
+  "version": "1.0.0",
+  "reviewedDelivery": "SIE 2026-07-01",
+  "nodes": [
+    {
+      "code": "interruttori_scatolati",
+      "name": "Interruttori scatolati",
+      "parent": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "sezionatori_con_maniglia",
+      "name": "Sezionatori con maniglia",
+      "parent": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "dispositivi_modulari",
+      "name": "Dispositivi modulari",
+      "parent": null,
+      "sortOrder": 30
+    },
+    {
+      "code": "dispositivi_a_pannello",
+      "name": "Dispositivi a pannello",
+      "parent": null,
+      "sortOrder": 40
+    },
+    {
+      "code": "supervisione_impianto",
+      "name": "Supervisione impianto",
+      "parent": null,
+      "sortOrder": 50
+    },
+    {
+      "code": "fusibili",
+      "name": "Fusibili",
+      "parent": null,
+      "sortOrder": 60
+    },
+    {
+      "code": "trasformatori_non_modulari",
+      "name": "Trasformatori non modulari",
+      "parent": null,
+      "sortOrder": 70
+    },
+    {
+      "code": "contattori_non_modulari",
+      "name": "Contattori non modulari",
+      "parent": null,
+      "sortOrder": 80
+    },
+    {
+      "code": "automazione",
+      "name": "Automazione",
+      "parent": null,
+      "sortOrder": 90
+    },
+    {
+      "code": "prese_industriali",
+      "name": "Prese industriali",
+      "parent": null,
+      "sortOrder": 100
+    },
+    {
+      "code": "dispositivi_modulari.magnetotermici",
+      "name": "Magnetotermici",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 451
+    },
+    {
+      "code": "dispositivi_modulari.magnetotermici_differenziali",
+      "name": "Magnetotermici differenziali",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 452
+    },
+    {
+      "code": "dispositivi_modulari.differenziali_puri",
+      "name": "Differenziali puri",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 491
+    },
+    {
+      "code": "dispositivi_modulari.portafusibili",
+      "name": "Portafusibili",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 495
+    },
+    {
+      "code": "dispositivi_modulari.contattori",
+      "name": "Contattori",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 497
+    },
+    {
+      "code": "dispositivi_modulari.rele",
+      "name": "Relè",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 498
+    },
+    {
+      "code": "dispositivi_modulari.trasformatori",
+      "name": "Trasformatori",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 500
+    },
+    {
+      "code": "dispositivi_modulari.alimentatori",
+      "name": "Alimentatori",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 501
+    },
+    {
+      "code": "dispositivi_modulari.interruttori_orari",
+      "name": "Interruttori Orari",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 502
+    },
+    {
+      "code": "dispositivi_modulari.sovratensione",
+      "name": "Limitatori di Sovratensione",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 506
+    },
+    {
+      "code": "dispositivi_modulari.accessori",
+      "name": "Accessori",
+      "parent": "dispositivi_modulari",
+      "sortOrder": 519
+    },
+    {
+      "code": "interruttori_scatolati.magnetotermici",
+      "name": "Magnetotermici",
+      "parent": "interruttori_scatolati",
+      "sortOrder": 265
+    },
+    {
+      "code": "sezionatori_con_maniglia.sezionatori",
+      "name": "Sezionatori",
+      "parent": "sezionatori_con_maniglia",
+      "sortOrder": 447
+    },
+    {
+      "code": "fusibili.10x38",
+      "name": "Fusibili 10,3x38 mm",
+      "parent": "fusibili",
+      "sortOrder": 537
+    },
+    {
+      "code": "fusibili.14x51",
+      "name": "Fusibili 14x51 mm",
+      "parent": "fusibili",
+      "sortOrder": 538
+    },
+    {
+      "code": "fusibili.22x58",
+      "name": "Fusibili 22x58 mm",
+      "parent": "fusibili",
+      "sortOrder": 539
+    },
+    {
+      "code": "fusibili.nh",
+      "name": "Fusibili NH",
+      "parent": "fusibili",
+      "sortOrder": 540
+    },
+    {
+      "code": "contattori_non_modulari.16_125",
+      "name": "Contattori 16-125A",
+      "parent": "contattori_non_modulari",
+      "sortOrder": 558
+    },
+    {
+      "code": "contattori_non_modulari.160_500",
+      "name": "Contattori 160-500A",
+      "parent": "contattori_non_modulari",
+      "sortOrder": 559
+    },
+    {
+      "code": "contattori_non_modulari.630_1600",
+      "name": "Contattori 630-1600A",
+      "parent": "contattori_non_modulari",
+      "sortOrder": 560
+    }
+  ],
+  "rules": [
+    {
+      "code": "modular.mt",
+      "node": "dispositivi_modulari.magnetotermici",
+      "families": [
+        "P310 I215",
+        "P310 I216",
+        "P310 I217",
+        "P310 I21A",
+        "P310 I21C",
+        "P310 I21E",
+        "P310 I225",
+        "P310 I227",
+        "P310 I22M",
+        "P310 I22N",
+        "P310 I22R",
+        "P310 I22Y",
+        "P310 I22Z",
+        "P310 I430",
+        "P311 I217"
+      ],
+      "descriptionPattern": "^INT[ .]*MT\\b",
+      "codePattern": "^5S(?:Y|L|J|P)"
+    },
+    {
+      "code": "modular.mtd",
+      "node": "dispositivi_modulari.magnetotermici_differenziali",
+      "families": [
+        "P310 I215",
+        "P310 I216",
+        "P310 I217",
+        "P310 I21A",
+        "P310 I21C",
+        "P310 I21E",
+        "P310 I225",
+        "P310 I227",
+        "P310 I22M",
+        "P310 I22N",
+        "P310 I22R",
+        "P310 I22Y",
+        "P310 I22Z",
+        "P310 I430",
+        "P311 I217"
+      ],
+      "descriptionPattern": "^(?:MTD\\b|INT[ .]*MTD\\b|INT[ .]*MT[ .]+DIFF)",
+      "codePattern": "^5S"
+    },
+    {
+      "code": "modular.rcd",
+      "node": "dispositivi_modulari.differenziali_puri",
+      "families": [
+        "P310 I215",
+        "P310 I216",
+        "P310 I217",
+        "P310 I21A",
+        "P310 I21C",
+        "P310 I21E",
+        "P310 I225",
+        "P310 I227",
+        "P310 I22M",
+        "P310 I22N",
+        "P310 I22R",
+        "P310 I22Y",
+        "P310 I22Z",
+        "P310 I430",
+        "P311 I217"
+      ],
+      "descriptionPattern": "^(?:DIFF[ .]|INT[ .]*DIFF)",
+      "codePattern": "^5S",
+      "excludePattern": "\\b(?:MTD|MT|BLOCCO)\\b"
+    },
+    {
+      "code": "modular.spd",
+      "node": "dispositivi_modulari.sovratensione",
+      "families": [
+        "P310 I21E"
+      ],
+      "descriptionPattern": "^(?:SPD\\b|SCAR[ .]|SCARICATOR)",
+      "codePattern": "^5SD"
+    },
+    {
+      "code": "modular.holder",
+      "node": "dispositivi_modulari.portafusibili",
+      "families": [
+        "P310 I21B"
+      ],
+      "descriptionPattern": "^(?:PORTAFUS|BASE (?:SEZ|PORTAFUS))",
+      "codePattern": "^3NW70[12356]",
+      "articleKind": "fuse_holder"
+    },
+    {
+      "code": "modular.contactor",
+      "node": "dispositivi_modulari.contattori",
+      "families": [
+        "P310 I217"
+      ],
+      "descriptionPattern": "^CONT(?:ATTORE|ACTOR)\\b",
+      "codePattern": "^5TT"
+    },
+    {
+      "code": "modular.relay",
+      "node": "dispositivi_modulari.rele",
+      "families": [
+        "P310 I217"
+      ],
+      "descriptionPattern": "^RELE",
+      "codePattern": "^5TT"
+    },
+    {
+      "code": "modular.transformer",
+      "node": "dispositivi_modulari.trasformatori",
+      "families": [
+        "P310 I217"
+      ],
+      "descriptionPattern": "^TRASF",
+      "codePattern": "^4AC3"
+    },
+    {
+      "code": "modular.supply",
+      "node": "dispositivi_modulari.alimentatori",
+      "families": [
+        "P310 I217"
+      ],
+      "descriptionPattern": "^ALIMENT",
+      "codePattern": "^4AC2"
+    },
+    {
+      "code": "modular.clock",
+      "node": "dispositivi_modulari.interruttori_orari",
+      "families": [
+        "P310 I217",
+        "P310 I430"
+      ],
+      "descriptionPattern": "^(?:INT[ .]*ORAR|OROLOGIO)",
+      "codePattern": "^7LF"
+    },
+    {
+      "code": "modular.accessory",
+      "node": "dispositivi_modulari.accessori",
+      "families": [
+        "P310 I215",
+        "P310 I216",
+        "P310 I217",
+        "P310 I21A",
+        "P310 I21C",
+        "P310 I21E",
+        "P310 I225",
+        "P310 I227",
+        "P310 I22M",
+        "P310 I22N",
+        "P310 I22R",
+        "P310 I22Y",
+        "P310 I22Z",
+        "P310 I430",
+        "P311 I217"
+      ],
+      "descriptionPattern": "^(?:ACC[ .]|ACCESSOR|CALOTT|COPERT|COVER\\b|GUIDA\\b|SUPPORT|TAPPO\\b|(?:CONT[ .]*(?:AUS|AUX)|CONTATT[OI][ .]*(?:AUS|AUX))|BLOC[ .]*CONT|BLOCCO CONT|MORSETT|BOBINA\\b|SGANC[ .]|MANIGL)",
+      "articleKind": "accessory",
+      "excludePattern": "^MORSETTO INT CBE"
+    },
+    {
+      "code": "mccb.mt",
+      "node": "interruttori_scatolati.magnetotermici",
+      "families": [
+        "P360 I74L"
+      ],
+      "descriptionPattern": "^(?:INT[ .]*AUT[ .]*3VA|MAGNETOTERM)",
+      "codePattern": "^3VA[12]"
+    },
+    {
+      "code": "switch.disconnector",
+      "node": "sezionatori_con_maniglia.sezionatori",
+      "families": [
+        "P230 I887",
+        "P360 I85A",
+        "P360 I85F",
+        "P360 I887"
+      ],
+      "descriptionPattern": "^(?:SEZIONATORE\\b|INT[ .]*(?:PRINC|EMER))",
+      "codePattern": "^3(?:LD|KA|KL|KD)"
+    },
+    {
+      "code": "fuse.10x38",
+      "node": "fusibili.10x38",
+      "families": [
+        "P310 I210",
+        "P310 I211",
+        "P310 I212",
+        "P310 I213",
+        "P310 I21B",
+        "P310 I21F",
+        "P310 I21G"
+      ],
+      "descriptionPattern": "^FUS[ .].*\\b10(?:[.,]3)?\\s*X\\s*38\\b"
+    },
+    {
+      "code": "fuse.14x51",
+      "node": "fusibili.14x51",
+      "families": [
+        "P310 I210",
+        "P310 I211",
+        "P310 I212",
+        "P310 I213",
+        "P310 I21B",
+        "P310 I21F",
+        "P310 I21G"
+      ],
+      "descriptionPattern": "^FUS[ .].*\\b14\\s*X\\s*51\\b"
+    },
+    {
+      "code": "fuse.22x58",
+      "node": "fusibili.22x58",
+      "families": [
+        "P310 I210",
+        "P310 I211",
+        "P310 I212",
+        "P310 I213",
+        "P310 I21B",
+        "P310 I21F",
+        "P310 I21G"
+      ],
+      "descriptionPattern": "^FUS[ .].*\\b22\\s*X\\s*58\\b"
+    },
+    {
+      "code": "fuse.nh",
+      "node": "fusibili.nh",
+      "families": [
+        "P310 I210",
+        "P310 I211",
+        "P310 I212",
+        "P310 I213",
+        "P310 I21B",
+        "P310 I21F",
+        "P310 I21G"
+      ],
+      "descriptionPattern": "^FUS[ .].*\\bNH\\s*(?:\\b|\\d)"
+    },
+    {
+      "code": "contactor.16_125",
+      "node": "contattori_non_modulari.16_125",
+      "families": [
+        "R711 I330",
+        "R711 I336",
+        "R711 I338",
+        "R711 I370",
+        "R711 I706",
+        "R711 I807",
+        "R711 I810"
+      ],
+      "descriptionPattern": "^(?:CONT(?:ATT|ACT|[ .]|\\d|S\\d)|PICCOLO CONT)",
+      "codePattern": "^3(?:RT|TC|TG)",
+      "currentRange": [
+        16,
+        125
+      ]
+    },
+    {
+      "code": "contactor.160_500",
+      "node": "contattori_non_modulari.160_500",
+      "families": [
+        "R711 I330",
+        "R711 I336",
+        "R711 I338",
+        "R711 I370",
+        "R711 I706",
+        "R711 I807",
+        "R711 I810"
+      ],
+      "descriptionPattern": "^(?:CONT(?:ATT|ACT|[ .]|\\d|S\\d)|PICCOLO CONT)",
+      "codePattern": "^3(?:RT|TC|TG)",
+      "currentRange": [
+        160,
+        500
+      ]
+    },
+    {
+      "code": "contactor.630_1600",
+      "node": "contattori_non_modulari.630_1600",
+      "families": [
+        "R711 I330",
+        "R711 I336",
+        "R711 I338",
+        "R711 I370",
+        "R711 I706",
+        "R711 I807",
+        "R711 I810"
+      ],
+      "descriptionPattern": "^(?:CONT(?:ATT|ACT|[ .]|\\d|S\\d)|PICCOLO CONT)",
+      "codePattern": "^3(?:RT|TC|TG)",
+      "currentRange": [
+        630,
+        1600
+      ]
+    }
+  ],
+  "familyReview": [
+    {
+      "code": "P230 I745",
+      "description": "INTER. APERTI 3WL 3P",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P230 I852",
+      "description": "ACCESSORI 3NJ6",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P230 I85F",
+      "description": "SEZIONATORI 3KA7",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P230 I887",
+      "description": "INT PRINC E DI EMERG",
+      "profile": "switching",
+      "rules": [
+        "switch.disconnector"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I210",
+      "description": "VALVOLE NEOZED",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I211",
+      "description": "VALVOLE DIAZED",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I212",
+      "description": "VALVOLE DIAZED",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I213",
+      "description": "VALVOLE NH",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I215",
+      "description": "INTERR.DIFFERENZIALI",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I216",
+      "description": "DIFF. PURI",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I217",
+      "description": "APP.NON AUT.SIST.N",
+      "profile": "control",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.contactor",
+        "modular.relay",
+        "modular.transformer",
+        "modular.supply",
+        "modular.clock",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21A",
+      "description": "INTERUTTORI AUTOMATI",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21B",
+      "description": "BASI E FUSIBILI CILI",
+      "profile": "fuses",
+      "rules": [
+        "modular.holder",
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21C",
+      "description": "INT. MAGNETOTERMICI",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21E",
+      "description": "SCARICATORI",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.spd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21F",
+      "description": "FUS. EXTRARAP.SITOR",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I21G",
+      "description": "FUS. EXTRARAP.SITOR",
+      "profile": "fuses",
+      "rules": [
+        "fuse.10x38",
+        "fuse.14x51",
+        "fuse.22x58",
+        "fuse.nh"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I225",
+      "description": "INTERR.AUTOM. 4,5 KA",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I227",
+      "description": "INT.AUT. 6KA 5SX",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I22M",
+      "description": "BLOCCHI DIFF. AC",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I22N",
+      "description": "BLOCCHI DIFF. A",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I22R",
+      "description": "INT.AUT. 25KA  5SY8.",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I22Y",
+      "description": "INT. AUT. 6/10/15 KA",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I22Z",
+      "description": "INT. AUT. 6KA 1/3P 5",
+      "profile": "protection",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I430",
+      "description": "OROLOGI INTERRUTTORI",
+      "profile": "control",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.clock",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P310 I769",
+      "description": "SIVACON S4 SCIOLTO",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P311 I217",
+      "description": "APP.NON AUT.SIST.N",
+      "profile": "control",
+      "rules": [
+        "modular.mt",
+        "modular.mtd",
+        "modular.rcd",
+        "modular.accessory"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P320 I222",
+      "description": "STAB/SIKUS SCIOLTO",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I22C",
+      "description": "STAB UNIVERSAL SCIOL",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I22G",
+      "description": "QUADRI E CENTR. SPOR",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I22H",
+      "description": "ALPHA SCIOLTO STEP3",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I22T",
+      "description": "ALPHA 125 SCIOLTO",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I22U",
+      "description": "ALPHA 630 SCIOLTO",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I241",
+      "description": "ALPHA BOX",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I260",
+      "description": "MORSETTI 8WA2",
+      "profile": "terminals",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I262",
+      "description": "MORSETTI 8WH",
+      "profile": "terminals",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P320 I270",
+      "description": "CONTRASSEGNI 8WA8",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I740",
+      "description": "INTERR. SCATOLATI 3V",
+      "profile": "protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I741",
+      "description": "INTERR. SCATOLATI 3VL-UL",
+      "profile": "protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I745",
+      "description": "INTERR APERTI 3WL 3 POLI",
+      "profile": "protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I746",
+      "description": "POWER MONITORING DEVICE",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I74L",
+      "description": "INTERR. AUTOM. SCATO",
+      "profile": "protection",
+      "rules": [
+        "mccb.mt"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P360 I851",
+      "description": "SEZ SOTTOCARICO A FU",
+      "profile": "switching",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I852",
+      "description": "SEZ SOTTOCARICO A FU",
+      "profile": "switching",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I853",
+      "description": "SEZ SOT CON SENZA FU",
+      "profile": "switching",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I85A",
+      "description": "SEZ SOTTOCARICO ITL",
+      "profile": "switching",
+      "rules": [
+        "switch.disconnector"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P360 I85F",
+      "description": "SEZ SOTTOCARICO ITL",
+      "profile": "switching",
+      "rules": [
+        "switch.disconnector"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P360 I887",
+      "description": "INT PRINC E DI EMERG",
+      "profile": "switching",
+      "rules": [
+        "switch.disconnector"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "P360 I888",
+      "description": "SIST DI DISTRIBUZ A",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P360 I894",
+      "description": "POWER MONITORING DEVICE",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P372 I747",
+      "description": "CONDENSATORI",
+      "profile": "reactive",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P372 I769",
+      "description": "SIVACON",
+      "profile": "enclosures",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P373 I73M",
+      "description": "BLINDOSBARRE MOELLER",
+      "profile": "distribution",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "P380 I213",
+      "description": "VALVOLE NH",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC10",
+      "description": "SIMATIC STEP 7 TIA PORTAL E CLASSIC",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC12",
+      "description": "SIMATIC, S7-1200",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC13",
+      "description": "SIMATIC, S7-300 CPU",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC14",
+      "description": "SIMATIC, S7-1500",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC16",
+      "description": "SIMATIC, S7-1500H",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC17",
+      "description": "ET200SP OPEN CONTROLLER",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC19",
+      "description": "SCE R132",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R132 IC20",
+      "description": "MODULO LOGICO LOGO!",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R134 IC41",
+      "description": "STEP 7 TIA PORTAL OPZIONI",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R134 IC43",
+      "description": "SW OPEN CONTROLLER",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R134 IC44",
+      "description": "STEP 7 TIA PORTAL",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC51",
+      "description": "S7-300 IO",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC52",
+      "description": "S7-1500 IO",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC53",
+      "description": "SIMATIC DP IO",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC54",
+      "description": "SIMATIC DP ET200 SP",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC55",
+      "description": "SIPLUS RIC",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC56",
+      "description": "SIMATIC MODBUS SIMEAS",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R135 IC57",
+      "description": "SCE R135",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R136 IC60",
+      "description": "SIMATIC FAILSAFE SW",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R136 IC61",
+      "description": "S7-300F, SIMATIC DP FAILSAFE",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R136 IC62",
+      "description": "S7-1200F,F-SW BASIC",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R136 IC63",
+      "description": "S7-1500F, F-SW ADV.",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R136 IC64",
+      "description": "SCE R136",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R141 IH01",
+      "description": "HMI PANELS",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R141 IH04",
+      "description": "IPC CUSTOM",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R141 IH05",
+      "description": "IPC CUSTOM",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R141 IH07",
+      "description": "SCE: HMI SOFTWARE",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R141 IH08",
+      "description": "PRODOTTI SIPLUS",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R144 IH40",
+      "description": "RACK PC/BOXPC",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R144 IH41",
+      "description": "FIELD PG",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R144 IH42",
+      "description": "PANEL PC",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R144 IH43",
+      "description": "SIMATIC BASIC IPC",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1DS ILG9",
+      "description": "SIMATIC SYSTEM, PLATFORM",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE10",
+      "description": "HUMAN MACHINE INTERFACE SW",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE11",
+      "description": "WINCC OA",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE12",
+      "description": "SIMATIC WINCC",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE13",
+      "description": "ENERGYMANAGEMENT",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE14",
+      "description": "BRAUMAT",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE16",
+      "description": "SCE: WINCC CLASSIC",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R1OS IE29",
+      "description": "HMI R1OS OTHERS",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I0HT",
+      "description": "SIDOOR",
+      "profile": "motors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I657",
+      "description": "SINAMICS G120 PM 240",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I658",
+      "description": "SINAMICS G120 OPZIONI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I659",
+      "description": "SINAMICS G120 DOC/ACCESSORI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I660",
+      "description": "SINAMICS G120 PM250",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I661",
+      "description": "SINAMICS G120D",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I664",
+      "description": "SINAMICS G110D",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I666",
+      "description": "SINAMICS G120C",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I667",
+      "description": "SINAMICS G120 POWER",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I668",
+      "description": "SINAMICS V20",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I669",
+      "description": "SINAMICS V90",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I66A",
+      "description": "SINAMICS S210",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I66B",
+      "description": "SIMOTICS 1FK2",
+      "profile": "motors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 I66X",
+      "description": "SINAMICS G120X",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R220 IG28",
+      "description": "SINAMICS S200",
+      "profile": "drives",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R221 IG60",
+      "description": "MC DIGITALIZATION SOFTWARE",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R251 I65G",
+      "description": "SIMATIC S7-1500T",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R261 IMD1",
+      "description": "DI MC DIGITAL DRIVE TRAIN",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R315 I0HA",
+      "description": "SITOP POWER SUPPLY",
+      "profile": "power",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R315 I0HB",
+      "description": "SIMATIC TOP CONNECT",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R320 I0NA",
+      "description": "SCALANCE NETWORKS",
+      "profile": "networking",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R322 I05B",
+      "description": "SIMATIC IDENT AND RTLS",
+      "profile": "networking",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R322 I0NF",
+      "description": "SIMATIC NET",
+      "profile": "networking",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R323 I0NH",
+      "description": "SCALANCE WIRELESS AND CABLING",
+      "profile": "networking",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R336 I0G2",
+      "description": "DCS HW",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R336 I0G3",
+      "description": "ET 200SP HA",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R338 I0GJ",
+      "description": "SIMATIC S7 400-400F",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R362 I0GY",
+      "description": "SIMATIC PCS NEO HW",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R363 I0G2",
+      "description": "SIMATIC PCS 7 HW",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R364 I0NS",
+      "description": "SIMIT",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R365 INY0",
+      "description": "SIMATIC PCS 7 E NEO SW",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P0 I08B",
+      "description": "TRASM./CONVERT.",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P0 I08E",
+      "description": "POSIZIONATORI SIPART",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P0 I08Z",
+      "description": "MILLTRONICS LEVELS",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P2 I08X",
+      "description": "MI VP - VALVE POSITIONER",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P3 I08I",
+      "description": "FLOW INSTRUMENTS",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P3 I08R",
+      "description": "MISURATORI DI PORTATA CLAMP ON",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P5 I08F",
+      "description": "SIST. DOSAGGIO E PES",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R3P5 I08N",
+      "description": "MILLTRONICS LEVELS",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I0T4",
+      "description": "ILM 3RC7 E 3RA8",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I330",
+      "description": "SIRIUS NG - CONTATTORI S00",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I333",
+      "description": "SIRIUS NG - SALVAMOTORI S0",
+      "profile": "motor_protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I334",
+      "description": "SIRIUS NG - SALVAMOTORI S2/S3",
+      "profile": "motor_protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I335",
+      "description": "SIRIUS NG  - ACCES. SALVAMOTORI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I336",
+      "description": "SIRIUS NG  - CONTATTORI S0",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I337",
+      "description": "SIRIUS NG  - TELEINVERTITORI",
+      "profile": "contactors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I338",
+      "description": "SIRIUS NG  - CONTATTORI S2",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I339",
+      "description": "SIRIUS NG  - COMB. STELLA-TRIANGOLO",
+      "profile": "contactors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I33A",
+      "description": "SIRIUS NG - CONTATTORI AUX E INTERFACCIA",
+      "profile": "contactors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I33B",
+      "description": "SIRIUS NG - SALVAMOTORI S00",
+      "profile": "motor_protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I340",
+      "description": "SIRIUS NG  - ACCES. PARTENZE COMPATTE",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I341",
+      "description": "SIRIUS NG  - PARTENZE COMPATTE",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I342",
+      "description": "SIRIUS MODULI AS-I PARTENZE COMPATTE",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I343",
+      "description": "SIRIUS NG - RELF CONTROLLO CORRENTE",
+      "profile": "measurement",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I344",
+      "description": "SIRIUS NG - ACCES.CONT/PARTENZES00-S12",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I345",
+      "description": "SIRIUS SOFT STARTERS 3RW30",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I346",
+      "description": "SIRIUS NG  - RELF TERMICI EL.MECC",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I347",
+      "description": "SIRIUS NG  - MOD. FUNZ. TEMP. - STAR/DELTA",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I348",
+      "description": "SIRIUS NG  - AVVIATORI COMBINATI S00",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I34A",
+      "description": "SIRIUS NG  - ACCESS. RELF TERMICI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I350",
+      "description": "SIRIUS NG  - RELF TERMICI ELETTRONICI",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I370",
+      "description": "SIRIUS NG CONTATTORI S3",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I372",
+      "description": "TEMPORIZZATORI 7PV",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I373",
+      "description": "SIRIUS NG - MOD. FUNZ. COMUNICAZIONE",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I452",
+      "description": "PULSANTI 3SU1 STANDARD",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I453",
+      "description": "PULSANTI 3SU1 COMMUNICATION",
+      "profile": "automation",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I454",
+      "description": "PULSANTI 3SU1 SAFETY",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I597",
+      "description": "SIRIUS NG RELÈ TERMICI ELETTROMECCANICI S3",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I598",
+      "description": "SIRIUS NG RELÈ TERMICI ELETTRONICI S3",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I67E",
+      "description": "SIRIUS NG MSP S3",
+      "profile": "motor_protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I706",
+      "description": "CONTATTORI SIRIUS II",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I715",
+      "description": "INT. AUTOMATICI S00",
+      "profile": "motor_protection",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I71A",
+      "description": "SIRIUS MSP ACCESSORI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I720",
+      "description": "SIRIUS AS INTERF 3RK",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I721",
+      "description": "SIRIUS AS INTERF ALI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I722",
+      "description": "SIRIUS AS INTERF. PA",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I723",
+      "description": "SIRIUS PARTENZE MOTO",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I724",
+      "description": "SIRIUS NET PROFIBUS",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I725",
+      "description": "CONTATTORI STATICI 3",
+      "profile": "contactors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I726",
+      "description": "MOD.CONTR.POTENZA",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I727",
+      "description": "SOFT STARTERS 3RW40",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I728",
+      "description": "SOFT STARTERS 3RW44",
+      "profile": "software",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I729",
+      "description": "ACCESSORI X CONTATTO",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I72M",
+      "description": "SIRIUS AS INTERF MASTER",
+      "profile": "networking",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I739",
+      "description": "ACCESSORI X RELE' TE",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I750",
+      "description": "FINECORSA 3SE37/3",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I757",
+      "description": "ACCESSORI 3RM1",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I761",
+      "description": "SIRIUS SAFETY RELAY",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I762",
+      "description": "AVVIATORI MOTOR 3RM1",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I801",
+      "description": "CONTATT AUSIL, INTER",
+      "profile": "contactors",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I803",
+      "description": "CONTATT. COMBIN. CON",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I804",
+      "description": "CONTATT. COMBIN. CON",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I805",
+      "description": "CONTATT. COMBIN. DI",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I807",
+      "description": "CONTATT. X MOTORI IN",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I808",
+      "description": "RELE' TERMICI SIRIUS",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I810",
+      "description": "MINICONTATTORI",
+      "profile": "contactors",
+      "rules": [
+        "contactor.16_125",
+        "contactor.160_500",
+        "contactor.630_1600"
+      ],
+      "decision": "article_evidence_required",
+      "note": "Mixed family: evaluate each article; family title never assigns a type."
+    },
+    {
+      "code": "R711 I812",
+      "description": "RELE' TERMICI ELETTR",
+      "profile": "overload",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I815",
+      "description": "RELE' DI INTERFACCIA",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I817",
+      "description": "TEMPORIZZATORI",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I821",
+      "description": "INT AUT 63A, 3VU, 3V",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I831",
+      "description": "PULSANTI 3SB1/2",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I833",
+      "description": "COLONNE DI SEGNALAZIONE",
+      "profile": "signalling",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I836",
+      "description": "SIMOCODE",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I837",
+      "description": "DISPOSITIVI DI SICUR",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I840",
+      "description": "FINECORSA STANDARD 3SE5",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I841",
+      "description": "FINECORSA 3SE",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I842",
+      "description": "FINECORSA DI SICUREZZA 3SE5",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I880",
+      "description": "CONVERTITORI D'INTER",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I882",
+      "description": "RELE' DI CONTROLLO T",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I883",
+      "description": "RELE' DI PROT MOTORE",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I885",
+      "description": "RELE' DI CONTROLLO",
+      "profile": "control",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I980",
+      "description": "SIRIUS SOFT STARTERS 3RW50",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I981",
+      "description": "SIRIUS SOFT STARTERS 3RW52",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I982",
+      "description": "SIRIUS SOFT STARTERS 3RW55",
+      "profile": "starters",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R711 I983",
+      "description": "SIRIUS SOFT STARTERS 3RW59",
+      "profile": "accessories",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R716 I780",
+      "description": "IMPEDENZE 4EM",
+      "profile": "reactive",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R716 I872",
+      "description": "TRASFORMAT FINO 16 K",
+      "profile": "power",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    },
+    {
+      "code": "R716 I877",
+      "description": "ALIMENT 4AV",
+      "profile": "power",
+      "rules": [],
+      "decision": "no_applicable_reviewed_type",
+      "note": "No reviewed Siemens article identification for an applicable TiQuadri type; retain original family under Non classificati."
+    }
+  ],
+  "accessoryPattern": "^(?:ACC[ .]|ACCESSOR|SPARE\\b|RICAMB|CALOTT|COPERT|COVER\\b|TAPPO\\b|MANIGL|LEVA\\b|GUIDA\\b|RAIL\\b|PIASTR|BASE\\b|MORSETT|CONNET|CAVO\\b|CABLE\\b|SUPPORT|ADAT|ADAPT|MOUNT|CONT[ .]*(?:AUS|AUX)|CONTATT[OI]\\b|AUX\\b|BOBINA\\b|SGANC[ .]|KIT\\b|BLOCCO CONT|BLOC[ .]*CONT)"
+}

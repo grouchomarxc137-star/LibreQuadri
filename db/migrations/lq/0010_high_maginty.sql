@@ -1,0 +1,1 @@
+ALTER TABLE `cat_config_model_relation` ADD `placement_mode` text;

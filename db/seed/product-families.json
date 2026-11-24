@@ -1,0 +1,102 @@
+[
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin45",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN45",
+    "series": "btdin45",
+    "description": "Interruttori automatici magnetotermici 4,5 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin45_1pn_881",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN45 1P+N 881",
+    "series": "btdin45",
+    "description": "Interruttori automatici magnetotermici 4,5 kA, serie 881",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin60",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN60",
+    "series": "btdin60",
+    "description": "Interruttori automatici magnetotermici 6 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin60_1pn_881",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN60 1P+N 881",
+    "series": "btdin60",
+    "description": "Interruttori automatici magnetotermici 6 kA, serie 881",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin100",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN100",
+    "series": "btdin100",
+    "description": "Interruttori automatici magnetotermici 10 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin160",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN160",
+    "series": "btdin160",
+    "description": "Interruttori automatici magnetotermici 16 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin250",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN250",
+    "series": "btdin250",
+    "description": "Interruttori automatici magnetotermici 25 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin500",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN500",
+    "series": "btdin500",
+    "description": "Interruttori automatici magnetotermici 50 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin_rs",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN-RS",
+    "series": "btdin-RS",
+    "description": "Interruttori automatici magnetotermici BTDIN-RS 4,5 kA",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  },
+  {
+    "brandMarchio": "BTI",
+    "code": "btdin_rs_1pn_881",
+    "categoryCode": "protezione.interruttori_automatici",
+    "name": "BTDIN-RS 1P+N 881",
+    "series": "btdin-RS",
+    "description": "Interruttori automatici magnetotermici BTDIN-RS, serie 881",
+    "active": true,
+    "axes": ["poles", "trip_curve", "rated_current"]
+  }
+]

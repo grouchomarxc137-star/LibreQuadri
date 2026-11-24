@@ -1,0 +1,1603 @@
+[
+  {
+    "code": "poles",
+    "name": "Poli",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "1p",
+        "label": "1P",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "1p_n",
+        "label": "1P+N",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "2p",
+        "label": "2P",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "3p",
+        "label": "3P",
+        "sortOrder": 40,
+        "active": true
+      },
+      {
+        "value": "3p_n",
+        "label": "3P+N",
+        "sortOrder": 50,
+        "active": true
+      },
+      {
+        "value": "4p",
+        "label": "4P",
+        "sortOrder": 60,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "rated_current",
+    "name": "Corrente nominale",
+    "dataType": "number",
+    "unit": "A",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "trip_curve",
+    "name": "Curva di intervento",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "b",
+        "label": "B",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "c",
+        "label": "C",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "d",
+        "label": "D",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "k",
+        "label": "K",
+        "sortOrder": 40,
+        "active": true
+      },
+      {
+        "value": "z",
+        "label": "Z",
+        "sortOrder": 50,
+        "active": true
+      },
+      {
+        "value": "a",
+        "label": "A",
+        "sortOrder": 60,
+        "active": true
+      },
+      {
+        "value": "e",
+        "label": "E",
+        "sortOrder": 70,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "declared_breaking_capacity",
+    "name": "Potere di interruzione (dichiarato)",
+    "dataType": "number",
+    "unit": "kA",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "rated_ultimate_breaking_capacity",
+    "name": "Potere di interruzione ultimo",
+    "dataType": "number",
+    "unit": "kA",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "rated_residual_current",
+    "name": "Corrente differenziale",
+    "dataType": "number",
+    "unit": "mA",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "residual_current_type",
+    "name": "Tipo differenziale",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "ac",
+        "label": "AC",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "a",
+        "label": "A",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "f",
+        "label": "F",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "b",
+        "label": "B",
+        "sortOrder": 40,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "trip_unit_type",
+    "name": "Sganciatore",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "thermomagnetic",
+        "label": "Magnetotermico",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "magnetic_only",
+        "label": "Solo magnetico",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "electronic",
+        "label": "Elettronico",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "electronic_li",
+        "label": "Elettronico LI",
+        "sortOrder": 40,
+        "active": true
+      },
+      {
+        "value": "electronic_lsi",
+        "label": "Elettronico LSI",
+        "sortOrder": 50,
+        "active": true
+      },
+      {
+        "value": "electronic_lsig",
+        "label": "Elettronico LSIG",
+        "sortOrder": 60,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "article_kind",
+    "name": "Tipo articolo",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "device",
+        "label": "Dispositivo",
+        "sortOrder": 0,
+        "active": true
+      },
+      {
+        "value": "accessory",
+        "label": "Accessorio",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "software",
+        "label": "Software",
+        "sortOrder": 20,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "rated_voltage",
+    "name": "Tensione nominale",
+    "dataType": "number",
+    "unit": "V",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "coil_voltage",
+    "name": "Tensione bobina",
+    "dataType": "number",
+    "unit": "V",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "supply_voltage",
+    "name": "Tensione alimentazione ausiliaria",
+    "dataType": "number",
+    "unit": "V",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "output_voltage",
+    "name": "Tensione uscita",
+    "dataType": "number",
+    "unit": "V",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "rated_power",
+    "name": "Potenza nominale",
+    "dataType": "number",
+    "unit": "kW",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "apparent_power",
+    "name": "Potenza apparente",
+    "dataType": "number",
+    "unit": "kVA",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "rated_torque",
+    "name": "Coppia dichiarata",
+    "dataType": "number",
+    "unit": "Nm",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "digital_inputs",
+    "name": "Ingressi digitali",
+    "dataType": "number",
+    "unit": null,
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "digital_outputs",
+    "name": "Uscite digitali",
+    "dataType": "number",
+    "unit": null,
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "analog_inputs",
+    "name": "Ingressi analogici",
+    "dataType": "number",
+    "unit": null,
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "analog_outputs",
+    "name": "Uscite analogiche",
+    "dataType": "number",
+    "unit": null,
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "width",
+    "name": "Larghezza",
+    "dataType": "number",
+    "unit": "mm",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "height",
+    "name": "Altezza",
+    "dataType": "number",
+    "unit": "mm",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "depth",
+    "name": "Profondità",
+    "dataType": "number",
+    "unit": "mm",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "diameter",
+    "name": "Diametro",
+    "dataType": "number",
+    "unit": "mm",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "rated_short_circuit_capacity",
+    "name": "Potere di interruzione Icn",
+    "dataType": "number",
+    "unit": "kA",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "current_setting_min",
+    "name": "Regolazione corrente minima",
+    "dataType": "number",
+    "unit": "A",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "current_setting_max",
+    "name": "Regolazione corrente massima",
+    "dataType": "number",
+    "unit": "A",
+    "active": true,
+    "options": []
+  },
+  {
+    "code": "ip_rating",
+    "name": "Grado IP",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "ip00",
+        "label": "IP00",
+        "sortOrder": 0,
+        "active": true
+      },
+      {
+        "value": "ip01",
+        "label": "IP01",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "ip02",
+        "label": "IP02",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "ip03",
+        "label": "IP03",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "ip04",
+        "label": "IP04",
+        "sortOrder": 40,
+        "active": true
+      },
+      {
+        "value": "ip05",
+        "label": "IP05",
+        "sortOrder": 50,
+        "active": true
+      },
+      {
+        "value": "ip06",
+        "label": "IP06",
+        "sortOrder": 60,
+        "active": true
+      },
+      {
+        "value": "ip07",
+        "label": "IP07",
+        "sortOrder": 70,
+        "active": true
+      },
+      {
+        "value": "ip08",
+        "label": "IP08",
+        "sortOrder": 80,
+        "active": true
+      },
+      {
+        "value": "ip09",
+        "label": "IP09",
+        "sortOrder": 90,
+        "active": true
+      },
+      {
+        "value": "ip0x",
+        "label": "IP0X",
+        "sortOrder": 100,
+        "active": true
+      },
+      {
+        "value": "ip10",
+        "label": "IP10",
+        "sortOrder": 110,
+        "active": true
+      },
+      {
+        "value": "ip11",
+        "label": "IP11",
+        "sortOrder": 120,
+        "active": true
+      },
+      {
+        "value": "ip12",
+        "label": "IP12",
+        "sortOrder": 130,
+        "active": true
+      },
+      {
+        "value": "ip13",
+        "label": "IP13",
+        "sortOrder": 140,
+        "active": true
+      },
+      {
+        "value": "ip14",
+        "label": "IP14",
+        "sortOrder": 150,
+        "active": true
+      },
+      {
+        "value": "ip15",
+        "label": "IP15",
+        "sortOrder": 160,
+        "active": true
+      },
+      {
+        "value": "ip16",
+        "label": "IP16",
+        "sortOrder": 170,
+        "active": true
+      },
+      {
+        "value": "ip17",
+        "label": "IP17",
+        "sortOrder": 180,
+        "active": true
+      },
+      {
+        "value": "ip18",
+        "label": "IP18",
+        "sortOrder": 190,
+        "active": true
+      },
+      {
+        "value": "ip19",
+        "label": "IP19",
+        "sortOrder": 200,
+        "active": true
+      },
+      {
+        "value": "ip1x",
+        "label": "IP1X",
+        "sortOrder": 210,
+        "active": true
+      },
+      {
+        "value": "ip20",
+        "label": "IP20",
+        "sortOrder": 220,
+        "active": true
+      },
+      {
+        "value": "ip21",
+        "label": "IP21",
+        "sortOrder": 230,
+        "active": true
+      },
+      {
+        "value": "ip22",
+        "label": "IP22",
+        "sortOrder": 240,
+        "active": true
+      },
+      {
+        "value": "ip23",
+        "label": "IP23",
+        "sortOrder": 250,
+        "active": true
+      },
+      {
+        "value": "ip24",
+        "label": "IP24",
+        "sortOrder": 260,
+        "active": true
+      },
+      {
+        "value": "ip25",
+        "label": "IP25",
+        "sortOrder": 270,
+        "active": true
+      },
+      {
+        "value": "ip26",
+        "label": "IP26",
+        "sortOrder": 280,
+        "active": true
+      },
+      {
+        "value": "ip27",
+        "label": "IP27",
+        "sortOrder": 290,
+        "active": true
+      },
+      {
+        "value": "ip28",
+        "label": "IP28",
+        "sortOrder": 300,
+        "active": true
+      },
+      {
+        "value": "ip29",
+        "label": "IP29",
+        "sortOrder": 310,
+        "active": true
+      },
+      {
+        "value": "ip2x",
+        "label": "IP2X",
+        "sortOrder": 320,
+        "active": true
+      },
+      {
+        "value": "ip30",
+        "label": "IP30",
+        "sortOrder": 330,
+        "active": true
+      },
+      {
+        "value": "ip31",
+        "label": "IP31",
+        "sortOrder": 340,
+        "active": true
+      },
+      {
+        "value": "ip32",
+        "label": "IP32",
+        "sortOrder": 350,
+        "active": true
+      },
+      {
+        "value": "ip33",
+        "label": "IP33",
+        "sortOrder": 360,
+        "active": true
+      },
+      {
+        "value": "ip34",
+        "label": "IP34",
+        "sortOrder": 370,
+        "active": true
+      },
+      {
+        "value": "ip35",
+        "label": "IP35",
+        "sortOrder": 380,
+        "active": true
+      },
+      {
+        "value": "ip36",
+        "label": "IP36",
+        "sortOrder": 390,
+        "active": true
+      },
+      {
+        "value": "ip37",
+        "label": "IP37",
+        "sortOrder": 400,
+        "active": true
+      },
+      {
+        "value": "ip38",
+        "label": "IP38",
+        "sortOrder": 410,
+        "active": true
+      },
+      {
+        "value": "ip39",
+        "label": "IP39",
+        "sortOrder": 420,
+        "active": true
+      },
+      {
+        "value": "ip3x",
+        "label": "IP3X",
+        "sortOrder": 430,
+        "active": true
+      },
+      {
+        "value": "ip40",
+        "label": "IP40",
+        "sortOrder": 440,
+        "active": true
+      },
+      {
+        "value": "ip41",
+        "label": "IP41",
+        "sortOrder": 450,
+        "active": true
+      },
+      {
+        "value": "ip42",
+        "label": "IP42",
+        "sortOrder": 460,
+        "active": true
+      },
+      {
+        "value": "ip43",
+        "label": "IP43",
+        "sortOrder": 470,
+        "active": true
+      },
+      {
+        "value": "ip44",
+        "label": "IP44",
+        "sortOrder": 480,
+        "active": true
+      },
+      {
+        "value": "ip45",
+        "label": "IP45",
+        "sortOrder": 490,
+        "active": true
+      },
+      {
+        "value": "ip46",
+        "label": "IP46",
+        "sortOrder": 500,
+        "active": true
+      },
+      {
+        "value": "ip47",
+        "label": "IP47",
+        "sortOrder": 510,
+        "active": true
+      },
+      {
+        "value": "ip48",
+        "label": "IP48",
+        "sortOrder": 520,
+        "active": true
+      },
+      {
+        "value": "ip49",
+        "label": "IP49",
+        "sortOrder": 530,
+        "active": true
+      },
+      {
+        "value": "ip4x",
+        "label": "IP4X",
+        "sortOrder": 540,
+        "active": true
+      },
+      {
+        "value": "ip50",
+        "label": "IP50",
+        "sortOrder": 550,
+        "active": true
+      },
+      {
+        "value": "ip51",
+        "label": "IP51",
+        "sortOrder": 560,
+        "active": true
+      },
+      {
+        "value": "ip52",
+        "label": "IP52",
+        "sortOrder": 570,
+        "active": true
+      },
+      {
+        "value": "ip53",
+        "label": "IP53",
+        "sortOrder": 580,
+        "active": true
+      },
+      {
+        "value": "ip54",
+        "label": "IP54",
+        "sortOrder": 590,
+        "active": true
+      },
+      {
+        "value": "ip55",
+        "label": "IP55",
+        "sortOrder": 600,
+        "active": true
+      },
+      {
+        "value": "ip56",
+        "label": "IP56",
+        "sortOrder": 610,
+        "active": true
+      },
+      {
+        "value": "ip57",
+        "label": "IP57",
+        "sortOrder": 620,
+        "active": true
+      },
+      {
+        "value": "ip58",
+        "label": "IP58",
+        "sortOrder": 630,
+        "active": true
+      },
+      {
+        "value": "ip59",
+        "label": "IP59",
+        "sortOrder": 640,
+        "active": true
+      },
+      {
+        "value": "ip5x",
+        "label": "IP5X",
+        "sortOrder": 650,
+        "active": true
+      },
+      {
+        "value": "ip60",
+        "label": "IP60",
+        "sortOrder": 660,
+        "active": true
+      },
+      {
+        "value": "ip61",
+        "label": "IP61",
+        "sortOrder": 670,
+        "active": true
+      },
+      {
+        "value": "ip62",
+        "label": "IP62",
+        "sortOrder": 680,
+        "active": true
+      },
+      {
+        "value": "ip63",
+        "label": "IP63",
+        "sortOrder": 690,
+        "active": true
+      },
+      {
+        "value": "ip64",
+        "label": "IP64",
+        "sortOrder": 700,
+        "active": true
+      },
+      {
+        "value": "ip65",
+        "label": "IP65",
+        "sortOrder": 710,
+        "active": true
+      },
+      {
+        "value": "ip66",
+        "label": "IP66",
+        "sortOrder": 720,
+        "active": true
+      },
+      {
+        "value": "ip67",
+        "label": "IP67",
+        "sortOrder": 730,
+        "active": true
+      },
+      {
+        "value": "ip68",
+        "label": "IP68",
+        "sortOrder": 740,
+        "active": true
+      },
+      {
+        "value": "ip69",
+        "label": "IP69",
+        "sortOrder": 750,
+        "active": true
+      },
+      {
+        "value": "ip6x",
+        "label": "IP6X",
+        "sortOrder": 760,
+        "active": true
+      },
+      {
+        "value": "ipx0",
+        "label": "IPX0",
+        "sortOrder": 770,
+        "active": true
+      },
+      {
+        "value": "ipx1",
+        "label": "IPX1",
+        "sortOrder": 780,
+        "active": true
+      },
+      {
+        "value": "ipx2",
+        "label": "IPX2",
+        "sortOrder": 790,
+        "active": true
+      },
+      {
+        "value": "ipx3",
+        "label": "IPX3",
+        "sortOrder": 800,
+        "active": true
+      },
+      {
+        "value": "ipx4",
+        "label": "IPX4",
+        "sortOrder": 810,
+        "active": true
+      },
+      {
+        "value": "ipx5",
+        "label": "IPX5",
+        "sortOrder": 820,
+        "active": true
+      },
+      {
+        "value": "ipx6",
+        "label": "IPX6",
+        "sortOrder": 830,
+        "active": true
+      },
+      {
+        "value": "ipx7",
+        "label": "IPX7",
+        "sortOrder": 840,
+        "active": true
+      },
+      {
+        "value": "ipx8",
+        "label": "IPX8",
+        "sortOrder": 850,
+        "active": true
+      },
+      {
+        "value": "ipx9",
+        "label": "IPX9",
+        "sortOrder": 860,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "software_version",
+    "name": "Versione software",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "v1",
+        "label": "V1",
+        "sortOrder": 0,
+        "active": true
+      },
+      {
+        "value": "v10",
+        "label": "V10",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "v10_0",
+        "label": "V10.0",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "v10_1",
+        "label": "V10.1",
+        "sortOrder": 30,
+        "active": true
+      },
+      {
+        "value": "v10_2",
+        "label": "V10.2",
+        "sortOrder": 40,
+        "active": true
+      },
+      {
+        "value": "v10_3",
+        "label": "V10.3",
+        "sortOrder": 50,
+        "active": true
+      },
+      {
+        "value": "v11",
+        "label": "V11",
+        "sortOrder": 60,
+        "active": true
+      },
+      {
+        "value": "v11_0",
+        "label": "V11.0",
+        "sortOrder": 70,
+        "active": true
+      },
+      {
+        "value": "v11_1",
+        "label": "V11.1",
+        "sortOrder": 80,
+        "active": true
+      },
+      {
+        "value": "v12",
+        "label": "V12",
+        "sortOrder": 90,
+        "active": true
+      },
+      {
+        "value": "v13",
+        "label": "V13",
+        "sortOrder": 100,
+        "active": true
+      },
+      {
+        "value": "v14",
+        "label": "V14",
+        "sortOrder": 110,
+        "active": true
+      },
+      {
+        "value": "v15",
+        "label": "V15",
+        "sortOrder": 120,
+        "active": true
+      },
+      {
+        "value": "v15_1",
+        "label": "V15.1",
+        "sortOrder": 130,
+        "active": true
+      },
+      {
+        "value": "v16",
+        "label": "V16",
+        "sortOrder": 140,
+        "active": true
+      },
+      {
+        "value": "v17",
+        "label": "V17",
+        "sortOrder": 150,
+        "active": true
+      },
+      {
+        "value": "v17_0",
+        "label": "V17.0",
+        "sortOrder": 160,
+        "active": true
+      },
+      {
+        "value": "v18",
+        "label": "V18",
+        "sortOrder": 170,
+        "active": true
+      },
+      {
+        "value": "v18_0",
+        "label": "V18.0",
+        "sortOrder": 180,
+        "active": true
+      },
+      {
+        "value": "v19",
+        "label": "V19",
+        "sortOrder": 190,
+        "active": true
+      },
+      {
+        "value": "v19_0",
+        "label": "V19.0",
+        "sortOrder": 200,
+        "active": true
+      },
+      {
+        "value": "v1_0",
+        "label": "V1.0",
+        "sortOrder": 210,
+        "active": true
+      },
+      {
+        "value": "v1_1",
+        "label": "V1.1",
+        "sortOrder": 220,
+        "active": true
+      },
+      {
+        "value": "v1_2",
+        "label": "V1.2",
+        "sortOrder": 230,
+        "active": true
+      },
+      {
+        "value": "v1_5",
+        "label": "V1.5",
+        "sortOrder": 240,
+        "active": true
+      },
+      {
+        "value": "v1_6",
+        "label": "V1.6",
+        "sortOrder": 250,
+        "active": true
+      },
+      {
+        "value": "v2",
+        "label": "V2",
+        "sortOrder": 260,
+        "active": true
+      },
+      {
+        "value": "v20",
+        "label": "V20",
+        "sortOrder": 270,
+        "active": true
+      },
+      {
+        "value": "v20_0",
+        "label": "V20.0",
+        "sortOrder": 280,
+        "active": true
+      },
+      {
+        "value": "v21",
+        "label": "V21",
+        "sortOrder": 290,
+        "active": true
+      },
+      {
+        "value": "v21_0",
+        "label": "V21.0",
+        "sortOrder": 300,
+        "active": true
+      },
+      {
+        "value": "v2_0",
+        "label": "V2.0",
+        "sortOrder": 310,
+        "active": true
+      },
+      {
+        "value": "v2_1",
+        "label": "V2.1",
+        "sortOrder": 320,
+        "active": true
+      },
+      {
+        "value": "v2_2",
+        "label": "V2.2",
+        "sortOrder": 330,
+        "active": true
+      },
+      {
+        "value": "v2_4",
+        "label": "V2.4",
+        "sortOrder": 340,
+        "active": true
+      },
+      {
+        "value": "v2_5",
+        "label": "V2.5",
+        "sortOrder": 350,
+        "active": true
+      },
+      {
+        "value": "v2_7",
+        "label": "V2.7",
+        "sortOrder": 360,
+        "active": true
+      },
+      {
+        "value": "v3",
+        "label": "V3",
+        "sortOrder": 370,
+        "active": true
+      },
+      {
+        "value": "v30",
+        "label": "V30",
+        "sortOrder": 380,
+        "active": true
+      },
+      {
+        "value": "v31",
+        "label": "V31",
+        "sortOrder": 390,
+        "active": true
+      },
+      {
+        "value": "v33",
+        "label": "V33",
+        "sortOrder": 400,
+        "active": true
+      },
+      {
+        "value": "v35",
+        "label": "V35",
+        "sortOrder": 410,
+        "active": true
+      },
+      {
+        "value": "v3_0",
+        "label": "V3.0",
+        "sortOrder": 420,
+        "active": true
+      },
+      {
+        "value": "v3_1",
+        "label": "V3.1",
+        "sortOrder": 430,
+        "active": true
+      },
+      {
+        "value": "v3_4",
+        "label": "V3.4",
+        "sortOrder": 440,
+        "active": true
+      },
+      {
+        "value": "v3_6",
+        "label": "V3.6",
+        "sortOrder": 450,
+        "active": true
+      },
+      {
+        "value": "v4",
+        "label": "V4",
+        "sortOrder": 460,
+        "active": true
+      },
+      {
+        "value": "v40",
+        "label": "V40",
+        "sortOrder": 470,
+        "active": true
+      },
+      {
+        "value": "v41",
+        "label": "V41",
+        "sortOrder": 480,
+        "active": true
+      },
+      {
+        "value": "v42",
+        "label": "V42",
+        "sortOrder": 490,
+        "active": true
+      },
+      {
+        "value": "v4_0",
+        "label": "V4.0",
+        "sortOrder": 500,
+        "active": true
+      },
+      {
+        "value": "v4_4",
+        "label": "V4.4",
+        "sortOrder": 510,
+        "active": true
+      },
+      {
+        "value": "v4_6",
+        "label": "V4.6",
+        "sortOrder": 520,
+        "active": true
+      },
+      {
+        "value": "v4_7",
+        "label": "V4.7",
+        "sortOrder": 530,
+        "active": true
+      },
+      {
+        "value": "v5",
+        "label": "V5",
+        "sortOrder": 540,
+        "active": true
+      },
+      {
+        "value": "v50",
+        "label": "V50",
+        "sortOrder": 550,
+        "active": true
+      },
+      {
+        "value": "v51",
+        "label": "V51",
+        "sortOrder": 560,
+        "active": true
+      },
+      {
+        "value": "v54",
+        "label": "V54",
+        "sortOrder": 570,
+        "active": true
+      },
+      {
+        "value": "v5_0",
+        "label": "V5.0",
+        "sortOrder": 580,
+        "active": true
+      },
+      {
+        "value": "v5_1",
+        "label": "V5.1",
+        "sortOrder": 590,
+        "active": true
+      },
+      {
+        "value": "v5_1_1",
+        "label": "V5.1.1",
+        "sortOrder": 600,
+        "active": true
+      },
+      {
+        "value": "v5_2",
+        "label": "V5.2",
+        "sortOrder": 610,
+        "active": true
+      },
+      {
+        "value": "v5_4",
+        "label": "V5.4",
+        "sortOrder": 620,
+        "active": true
+      },
+      {
+        "value": "v5_5",
+        "label": "V5.5",
+        "sortOrder": 630,
+        "active": true
+      },
+      {
+        "value": "v5_7",
+        "label": "V5.7",
+        "sortOrder": 640,
+        "active": true
+      },
+      {
+        "value": "v6",
+        "label": "V6",
+        "sortOrder": 650,
+        "active": true
+      },
+      {
+        "value": "v60",
+        "label": "V60",
+        "sortOrder": 660,
+        "active": true
+      },
+      {
+        "value": "v61",
+        "label": "V61",
+        "sortOrder": 670,
+        "active": true
+      },
+      {
+        "value": "v62",
+        "label": "V62",
+        "sortOrder": 680,
+        "active": true
+      },
+      {
+        "value": "v6_0",
+        "label": "V6.0",
+        "sortOrder": 690,
+        "active": true
+      },
+      {
+        "value": "v6_1",
+        "label": "V6.1",
+        "sortOrder": 700,
+        "active": true
+      },
+      {
+        "value": "v6_2",
+        "label": "V6.2",
+        "sortOrder": 710,
+        "active": true
+      },
+      {
+        "value": "v6_3",
+        "label": "V6.3",
+        "sortOrder": 720,
+        "active": true
+      },
+      {
+        "value": "v6_4",
+        "label": "V6.4",
+        "sortOrder": 730,
+        "active": true
+      },
+      {
+        "value": "v6_6",
+        "label": "V6.6",
+        "sortOrder": 740,
+        "active": true
+      },
+      {
+        "value": "v7",
+        "label": "V7",
+        "sortOrder": 750,
+        "active": true
+      },
+      {
+        "value": "v70",
+        "label": "V70",
+        "sortOrder": 760,
+        "active": true
+      },
+      {
+        "value": "v71",
+        "label": "V71",
+        "sortOrder": 770,
+        "active": true
+      },
+      {
+        "value": "v72",
+        "label": "V72",
+        "sortOrder": 780,
+        "active": true
+      },
+      {
+        "value": "v73",
+        "label": "V73",
+        "sortOrder": 790,
+        "active": true
+      },
+      {
+        "value": "v74",
+        "label": "V74",
+        "sortOrder": 800,
+        "active": true
+      },
+      {
+        "value": "v7_0",
+        "label": "V7.0",
+        "sortOrder": 810,
+        "active": true
+      },
+      {
+        "value": "v7_1",
+        "label": "V7.1",
+        "sortOrder": 820,
+        "active": true
+      },
+      {
+        "value": "v7_2",
+        "label": "V7.2",
+        "sortOrder": 830,
+        "active": true
+      },
+      {
+        "value": "v7_3",
+        "label": "V7.3",
+        "sortOrder": 840,
+        "active": true
+      },
+      {
+        "value": "v7_4",
+        "label": "V7.4",
+        "sortOrder": 850,
+        "active": true
+      },
+      {
+        "value": "v7_5",
+        "label": "V7.5",
+        "sortOrder": 860,
+        "active": true
+      },
+      {
+        "value": "v7_5_1",
+        "label": "V7.5.1",
+        "sortOrder": 870,
+        "active": true
+      },
+      {
+        "value": "v7_5_2",
+        "label": "V7.5.2",
+        "sortOrder": 880,
+        "active": true
+      },
+      {
+        "value": "v7_6",
+        "label": "V7.6",
+        "sortOrder": 890,
+        "active": true
+      },
+      {
+        "value": "v8",
+        "label": "V8",
+        "sortOrder": 900,
+        "active": true
+      },
+      {
+        "value": "v80",
+        "label": "V80",
+        "sortOrder": 910,
+        "active": true
+      },
+      {
+        "value": "v81",
+        "label": "V81",
+        "sortOrder": 920,
+        "active": true
+      },
+      {
+        "value": "v82",
+        "label": "V82",
+        "sortOrder": 930,
+        "active": true
+      },
+      {
+        "value": "v8_0",
+        "label": "V8.0",
+        "sortOrder": 940,
+        "active": true
+      },
+      {
+        "value": "v8_1",
+        "label": "V8.1",
+        "sortOrder": 950,
+        "active": true
+      },
+      {
+        "value": "v8_2",
+        "label": "V8.2",
+        "sortOrder": 960,
+        "active": true
+      },
+      {
+        "value": "v8_4",
+        "label": "V8.4",
+        "sortOrder": 970,
+        "active": true
+      },
+      {
+        "value": "v9",
+        "label": "V9",
+        "sortOrder": 980,
+        "active": true
+      },
+      {
+        "value": "v90",
+        "label": "V90",
+        "sortOrder": 990,
+        "active": true
+      },
+      {
+        "value": "v9_0",
+        "label": "V9.0",
+        "sortOrder": 1000,
+        "active": true
+      },
+      {
+        "value": "v9_1",
+        "label": "V9.1",
+        "sortOrder": 1010,
+        "active": true
+      },
+      {
+        "value": "v9_2",
+        "label": "V9.2",
+        "sortOrder": 1020,
+        "active": true
+      },
+      {
+        "value": "v9_3",
+        "label": "V9.3",
+        "sortOrder": 1030,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "licence_type",
+    "name": "Tipo licenza",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "floating",
+        "label": "Floating",
+        "sortOrder": 0,
+        "active": true
+      },
+      {
+        "value": "single",
+        "label": "Single",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "trial",
+        "label": "Trial",
+        "sortOrder": 20,
+        "active": true
+      },
+      {
+        "value": "rental",
+        "label": "Rental",
+        "sortOrder": 30,
+        "active": true
+      }
+    ]
+  },
+  {
+    "code": "software_delivery",
+    "name": "Fornitura software",
+    "dataType": "enum",
+    "unit": null,
+    "active": true,
+    "options": [
+      {
+        "value": "upgrade",
+        "label": "Upgrade",
+        "sortOrder": 0,
+        "active": true
+      },
+      {
+        "value": "update",
+        "label": "Update",
+        "sortOrder": 10,
+        "active": true
+      },
+      {
+        "value": "sus",
+        "label": "Software Update Service",
+        "sortOrder": 20,
+        "active": true
+      }
+    ]
+  }
+]

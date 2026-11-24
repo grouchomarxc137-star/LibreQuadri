@@ -1,0 +1,10 @@
+[
+  {
+    "sourceRef": "TiQuadri ANA_PACK 1777",
+    "reviewedName": "Falsi polo",
+    "sourceModalita": 13497,
+    "sourceLabel": 85,
+    "capacityKind": "din_rail",
+    "evidence": "Tiquadri.exe toolbar command FalsiPolo (\"Inserimento falsi polo DIN\" / \"Completamento falsi polo\") selects its filler with SELECT * FROM ANA_MODALITA WHERE ID_MODALITA=13497 AND ID_Label_Modalita_1 = 85 and fills Capienza - Sum(Poli_Din) of each DIN Pannello. The source tables carry no filler flag."
+  }
+]

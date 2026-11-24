@@ -1,0 +1,113 @@
+{
+  "levels": [
+    { "code": "gamma", "label": "Gamma", "sortOrder": 10 },
+    { "code": "tipologia", "label": "Tipologia", "sortOrder": 20 },
+    { "code": "famiglia", "label": "Famiglia", "sortOrder": 30 },
+    { "code": "segmento", "label": "Segmento", "sortOrder": 40 },
+    { "code": "famiglia_statistica", "label": "Famiglia statistica", "sortOrder": 50 }
+  ],
+  "mappings": [
+    { "adapterCode": "tiquadri", "systemId": 1, "sourceLevel": "system", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 1, "sourceLevel": "g1", "levelCode": "gamma", "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 1, "sourceLevel": "g2", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 1, "sourceLevel": "g3", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 1, "sourceLevel": "class", "levelCode": "famiglia", "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 2, "sourceLevel": "system", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 2, "sourceLevel": "g1", "levelCode": "gamma", "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 2, "sourceLevel": "g2", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 2, "sourceLevel": "g3", "levelCode": null, "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 2, "sourceLevel": "class", "levelCode": "famiglia", "catalogueNavigable": false },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "system", "levelCode": null, "catalogueNavigable": true },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "levelCode": "gamma", "catalogueNavigable": true },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g2", "levelCode": "tipologia", "catalogueNavigable": true },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g3", "levelCode": "tipologia", "catalogueNavigable": true },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "class", "levelCode": "famiglia", "catalogueNavigable": true }
+  ],
+  "groups": [
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "interruttori_scatolati", "name": "Interruttori scatolati", "sortOrder": 10,
+      "members": [
+        { "name": "Dispositivi 800V", "sourceIds": [505] },
+        { "name": "Megabreak 6300", "sourceIds": [500] },
+        { "name": "Megatiker Elettronici M5-1600", "sourceIds": [509] },
+        { "name": "Megatiker Elettronici M5-800", "sourceIds": [510] },
+        { "name": "Megatiker Elettronici M4-630", "sourceIds": [518] },
+        { "name": "Megatiker Elettronici M4-400", "sourceIds": [519] },
+        { "name": "Megatiker Elettronici M3-250", "sourceIds": [525] },
+        { "name": "Megatiker Elettronici M2-250", "sourceIds": [526] },
+        { "name": "Megatiker M5-1600", "sourceIds": [529] },
+        { "name": "Megatiker M5-800", "sourceIds": [530] },
+        { "name": "Megatiker M4-630", "sourceIds": [538] },
+        { "name": "Megatiker M4-400", "sourceIds": [539] },
+        { "name": "Megatiker M3-250", "sourceIds": [542] },
+        { "name": "Megatiker M3-160", "sourceIds": [544] },
+        { "name": "Megatiker M3-125", "sourceIds": [543] },
+        { "name": "Megatiker M1-160 / M2-250", "sourceIds": [546] },
+        { "name": "Megatiker M2 Corrente Continua", "sourceIds": [548] },
+        { "name": "Megatiker DIN Elettronici M2-250", "sourceIds": [563] },
+        { "name": "Megatiker DIN M1-160 / M2-250", "sourceIds": [566] },
+        { "name": "Megatiker DIN M2 Corrente Continua", "sourceIds": [568] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "sezionatori_con_maniglia", "name": "Sezionatori con maniglia", "sortOrder": 20,
+      "members": [
+        { "name": "Megaswitch MW-1600", "sourceIds": [590] },
+        { "name": "Megaswitch MW-630", "sourceIds": [591] },
+        { "name": "Megaswitch MW-250", "sourceIds": [592] },
+        { "name": "Megaswitch MW-63 / MW-160", "sourceIds": [593] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "dispositivi_modulari", "name": "Dispositivi modulari", "sortOrder": 30,
+      "members": [
+        { "name": "Btdin 500", "sourceIds": [595] },
+        { "name": "Btdin 250", "sourceIds": [596, 611] },
+        { "name": "Btdin 160", "sourceIds": [597] },
+        { "name": "Btdin 100", "sourceIds": [598, 621] },
+        { "name": "Btdin 60", "sourceIds": [599, 631] },
+        { "name": "Btdin 45", "sourceIds": [600, 641] },
+        { "name": "Btdin RS", "sourceIds": [650] },
+        { "name": "Btdin Stop Arc", "sourceIds": [652] },
+        { "name": "Btdin Corrente Continua", "sourceIds": [656] },
+        { "name": "Apparecchi Din", "sourceIds": [661] },
+        { "name": "Ausiliari Din", "sourceIds": [671] },
+        { "name": "Strumenti Din", "sourceIds": [681] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "dispositivi_a_pannello", "name": "Dispositivi a pannello", "sortOrder": 40,
+      "members": [
+        { "name": "Strumenti da incasso", "sourceIds": [691] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "supervisione_impianto", "name": "Supervisione impianto", "sortOrder": 50,
+      "members": [
+        { "name": "Sistema di Supervisione EMS", "sourceIds": [693] },
+        { "name": "Sistema di Supervisione IME SX", "sourceIds": [694] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "fusibili", "name": "Fusibili", "sortOrder": 60,
+      "members": [
+        { "name": "Fusibili", "sourceIds": [701] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "trasformatori_non_modulari", "name": "Trasformatori non modulari", "sortOrder": 70,
+      "members": [
+        { "name": "Trasformatori", "sourceIds": [711] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "contattori_non_modulari", "name": "Contattori non modulari", "sortOrder": 80,
+      "members": [
+        { "name": "Contattori Legrand", "sourceIds": [900] },
+        { "name": "Contattori + Salvamotori Legrand", "sourceIds": [910] },
+        { "name": "Contattori", "sourceIds": [721] },
+        { "name": "Contattori con termico", "sourceIds": [731] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "automazione", "name": "Automazione", "sortOrder": 90,
+      "members": [
+        { "name": "My Home", "sourceIds": [741] },
+        { "name": "Comunicazione", "sourceIds": [751] },
+        { "name": "Switch", "sourceIds": [781] },
+        { "name": "Sistema Automazione KNX", "sourceIds": [761] },
+        { "name": "Btdin Smart", "sourceIds": [771] },
+        { "name": "Apparecchi BTNET", "sourceIds": [801, 802] },
+        { "name": "Apparecchi Datacom", "sourceIds": [803] },
+        { "name": "Apparecchi Flatwall", "sourceIds": [811] }
+      ] },
+    { "adapterCode": "tiquadri", "systemId": 3, "sourceLevel": "g1", "code": "prese_industriali", "name": "Prese industriali", "sortOrder": 100,
+      "members": [
+        { "name": "Prese Incasso P17 Tempra PRO", "sourceIds": [951] },
+        { "name": "Prese Interbloccate P17 Tempra PRO", "sourceIds": [961] }
+      ] }
+  ]
+}

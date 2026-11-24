@@ -1,0 +1,8 @@
+[
+  { "code": "din_rail", "name": "Guida DIN", "unitLabel": "moduli", "displayDivisor": 2, "nominalPitchMm": 9 },
+  { "code": "mccb_slot", "name": "Sede interruttore scatolato", "unitLabel": "sedi", "displayDivisor": 1, "nominalPitchMm": null },
+  { "code": "acb_slot", "name": "Sede interruttore aperto", "unitLabel": "sedi", "displayDivisor": 1, "nominalPitchMm": null },
+  { "code": "socket_slot", "name": "Sede presa", "unitLabel": "sedi", "displayDivisor": 1, "nominalPitchMm": null },
+  { "code": "internal_rail_mm", "name": "Guida interna", "unitLabel": "mm", "displayDivisor": 1, "nominalPitchMm": 1 },
+  { "code": "stack_mm", "name": "Montaggio verticale", "unitLabel": "mm", "displayDivisor": 1, "nominalPitchMm": null }
+]

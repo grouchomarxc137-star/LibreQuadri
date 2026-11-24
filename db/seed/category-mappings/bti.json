@@ -1,0 +1,167 @@
+[
+  {
+    "code": "bti.bti.statistica.ind-112-5-11",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-11",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-71",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-71",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-19",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-19",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-15",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-15",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-22",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-22",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-115-20-124",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-115-20-124",
+    "categoryCode": "protezione.interruttori_automatici",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-12",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-12",
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-16",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-16",
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-72",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-72",
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-82",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-82",
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-24",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-24",
+    "categoryCode": "protezione.differenziali_puri",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-73",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-73",
+    "categoryCode": "protezione.differenziali_puri",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-83",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-83",
+    "categoryCode": "protezione.differenziali_puri",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-112-5-25",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-112-5-25",
+    "categoryCode": "protezione.blocchi_differenziali",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  },
+  {
+    "code": "bti.bti.statistica.ind-110-2-89",
+    "issuerSigla": "BTI",
+    "brandMarchio": "BTI",
+    "sourceType": "STATISTICA",
+    "matchMode": "exact",
+    "matchValue": "IND.-110-2-89",
+    "categoryCode": "protezione.rilevatori_arco",
+    "priority": 0,
+    "notes": "Verified against BTILSP021 + BTIFST, 2026-09-21."
+  }
+]

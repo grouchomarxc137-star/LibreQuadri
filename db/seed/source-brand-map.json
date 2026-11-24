@@ -1,0 +1,8 @@
+[
+  { "adapterCode": "tiquadri", "sourceBrandCode": "BT-", "brandMarchio": "BTI" },
+  { "adapterCode": "tiquadri", "sourceBrandCode": "LG-", "brandMarchio": "LEG" },
+  { "adapterCode": "tiquadri", "sourceBrandCode": "IM-", "brandMarchio": "IMS" },
+  { "adapterCode": "tiquadri", "sourceBrandCode": "CT-", "brandMarchio": null },
+  { "adapterCode": "tiquadri", "sourceBrandCode": "HW-", "brandMarchio": null },
+  { "adapterCode": "tiquadri", "sourceBrandCode": "NV-", "brandMarchio": null }
+]

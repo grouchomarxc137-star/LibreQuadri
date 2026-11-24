@@ -1,0 +1,401 @@
+[
+  {
+    "code": "protezione",
+    "parentCode": null,
+    "name": "Protezione",
+    "sortOrder": 0,
+    "active": true
+  },
+  {
+    "code": "protezione.interruttori_automatici",
+    "parentCode": "protezione",
+    "name": "Interruttori automatici",
+    "sortOrder": 10,
+    "active": true
+  },
+  {
+    "code": "protezione.magnetotermici_differenziali",
+    "parentCode": "protezione",
+    "name": "Magnetotermici differenziali",
+    "sortOrder": 20,
+    "active": true
+  },
+  {
+    "code": "protezione.differenziali_puri",
+    "parentCode": "protezione",
+    "name": "Differenziali puri",
+    "sortOrder": 30,
+    "active": true
+  },
+  {
+    "code": "protezione.blocchi_differenziali",
+    "parentCode": "protezione",
+    "name": "Blocchi differenziali",
+    "sortOrder": 40,
+    "active": true
+  },
+  {
+    "code": "protezione.rilevatori_arco",
+    "parentCode": "protezione",
+    "name": "Rilevatori arco",
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "code": "protezione.interruttori_scatolati",
+    "parentCode": "protezione",
+    "name": "Interruttori scatolati",
+    "sortOrder": 60,
+    "active": true
+  },
+  {
+    "code": "protezione.interruttori_scatolati_differenziali",
+    "parentCode": "protezione",
+    "name": "Interruttori scatolati differenziali",
+    "sortOrder": 70,
+    "active": true
+  },
+  {
+    "code": "protezione.interruttori_aperti",
+    "parentCode": "protezione",
+    "name": "Interruttori aperti",
+    "sortOrder": 80,
+    "active": true
+  },
+  {
+    "code": "protezione.salvamotori",
+    "parentCode": "protezione",
+    "name": "Salvamotori",
+    "sortOrder": 90,
+    "active": true
+  },
+  {
+    "code": "protezione.limitatori_sovratensione",
+    "parentCode": "protezione",
+    "name": "Limitatori di sovratensione",
+    "sortOrder": 100,
+    "active": true
+  },
+  {
+    "code": "protezione.portafusibili",
+    "parentCode": "protezione",
+    "name": "Portafusibili",
+    "sortOrder": 110,
+    "active": true
+  },
+  {
+    "code": "protezione.fusibili",
+    "parentCode": "protezione",
+    "name": "Fusibili",
+    "sortOrder": 120,
+    "active": true
+  },
+  {
+    "code": "protezione.rele_differenziali",
+    "parentCode": "protezione",
+    "name": "Relè differenziali",
+    "sortOrder": 130,
+    "active": true
+  },
+  {
+    "code": "manovra",
+    "parentCode": null,
+    "name": "Manovra",
+    "sortOrder": 200,
+    "active": true
+  },
+  {
+    "code": "manovra.sezionatori",
+    "parentCode": "manovra",
+    "name": "Sezionatori",
+    "sortOrder": 210,
+    "active": true
+  },
+  {
+    "code": "manovra.sezionatori_differenziali",
+    "parentCode": "manovra",
+    "name": "Sezionatori differenziali",
+    "sortOrder": 220,
+    "active": true
+  },
+  {
+    "code": "manovra.sezionatori_fusibili",
+    "parentCode": "manovra",
+    "name": "Sezionatori portafusibili",
+    "sortOrder": 230,
+    "active": true
+  },
+  {
+    "code": "comando",
+    "parentCode": null,
+    "name": "Comando",
+    "sortOrder": 300,
+    "active": true
+  },
+  {
+    "code": "comando.contattori_rele",
+    "parentCode": "comando",
+    "name": "Contattori e relè",
+    "sortOrder": 310,
+    "active": true
+  },
+  {
+    "code": "comando.interruttori_orari_temporizzatori",
+    "parentCode": "comando",
+    "name": "Interruttori orari e temporizzatori",
+    "sortOrder": 320,
+    "active": true
+  },
+  {
+    "code": "comando.apparecchi_di_comando",
+    "parentCode": "comando",
+    "name": "Apparecchi di comando",
+    "sortOrder": 330,
+    "active": true
+  },
+  {
+    "code": "comando.segnalazione",
+    "parentCode": "comando",
+    "name": "Segnalazione",
+    "sortOrder": 340,
+    "active": true
+  },
+  {
+    "code": "misura",
+    "parentCode": null,
+    "name": "Misura",
+    "sortOrder": 400,
+    "active": true
+  },
+  {
+    "code": "misura.contatori_energia",
+    "parentCode": "misura",
+    "name": "Contatori di energia",
+    "sortOrder": 410,
+    "active": true
+  },
+  {
+    "code": "misura.strumenti_di_misura",
+    "parentCode": "misura",
+    "name": "Strumenti di misura",
+    "sortOrder": 420,
+    "active": true
+  },
+  {
+    "code": "alimentazione",
+    "parentCode": null,
+    "name": "Alimentazione",
+    "sortOrder": 500,
+    "active": true
+  },
+  {
+    "code": "alimentazione.alimentatori_trasformatori",
+    "parentCode": "alimentazione",
+    "name": "Alimentatori e trasformatori",
+    "sortOrder": 510,
+    "active": true
+  },
+  {
+    "code": "accessori",
+    "parentCode": null,
+    "name": "Accessori",
+    "sortOrder": 600,
+    "active": true
+  },
+  {
+    "code": "accessori.accessori_quadro",
+    "parentCode": "accessori",
+    "name": "Accessori per quadro",
+    "sortOrder": 610,
+    "active": true
+  },
+  {
+    "code": "supervisione",
+    "parentCode": null,
+    "name": "Supervisione",
+    "sortOrder": 700,
+    "active": true
+  },
+  {
+    "code": "supervisione.supervisione_impianto",
+    "parentCode": "supervisione",
+    "name": "Supervisione impianto",
+    "sortOrder": 710,
+    "active": true
+  },
+  {
+    "code": "automazione",
+    "parentCode": null,
+    "name": "Automazione",
+    "sortOrder": 800,
+    "active": true
+  },
+  {
+    "code": "automazione.sistemi_edificio",
+    "parentCode": "automazione",
+    "name": "Sistemi per l'edificio",
+    "sortOrder": 810,
+    "active": true
+  },
+  {
+    "code": "prese",
+    "parentCode": null,
+    "name": "Prese",
+    "sortOrder": 900,
+    "active": true
+  },
+  {
+    "code": "prese.prese_industriali",
+    "parentCode": "prese",
+    "name": "Prese industriali",
+    "sortOrder": 910,
+    "active": true
+  },
+  {
+    "code": "protezione.industrial_protection",
+    "parentCode": "protezione",
+    "name": "Apparecchi e accessori di protezione",
+    "sortOrder": 1000,
+    "active": true
+  },
+  {
+    "code": "protezione.industrial_fuses",
+    "parentCode": "protezione",
+    "name": "Fusibili e accessori",
+    "sortOrder": 1010,
+    "active": true
+  },
+  {
+    "code": "protezione.industrial_motor_protection",
+    "parentCode": "protezione",
+    "name": "Protezione motore",
+    "sortOrder": 1020,
+    "active": true
+  },
+  {
+    "code": "protezione.industrial_overload",
+    "parentCode": "protezione",
+    "name": "Relè di sovraccarico",
+    "sortOrder": 1030,
+    "active": true
+  },
+  {
+    "code": "manovra.industrial_switching",
+    "parentCode": "manovra",
+    "name": "Manovra e accessori",
+    "sortOrder": 1040,
+    "active": true
+  },
+  {
+    "code": "comando.industrial_contactors",
+    "parentCode": "comando",
+    "name": "Contattori e accessori",
+    "sortOrder": 1050,
+    "active": true
+  },
+  {
+    "code": "comando.industrial_starters",
+    "parentCode": "comando",
+    "name": "Avviatori",
+    "sortOrder": 1060,
+    "active": true
+  },
+  {
+    "code": "comando.industrial_control",
+    "parentCode": "comando",
+    "name": "Comando e accessori",
+    "sortOrder": 1070,
+    "active": true
+  },
+  {
+    "code": "comando.industrial_signalling",
+    "parentCode": "comando",
+    "name": "Segnalazione e accessori",
+    "sortOrder": 1080,
+    "active": true
+  },
+  {
+    "code": "accessori.industrial_enclosures",
+    "parentCode": "accessori",
+    "name": "Involucri e componenti",
+    "sortOrder": 1090,
+    "active": true
+  },
+  {
+    "code": "accessori.industrial_accessories",
+    "parentCode": "accessori",
+    "name": "Accessori tecnici",
+    "sortOrder": 1100,
+    "active": true
+  },
+  {
+    "code": "accessori.industrial_terminals",
+    "parentCode": "accessori",
+    "name": "Morsetti",
+    "sortOrder": 1110,
+    "active": true
+  },
+  {
+    "code": "misura.industrial_measurement",
+    "parentCode": "misura",
+    "name": "Strumentazione industriale",
+    "sortOrder": 1120,
+    "active": true
+  },
+  {
+    "code": "alimentazione.industrial_reactive",
+    "parentCode": "alimentazione",
+    "name": "Reattanze e condensatori",
+    "sortOrder": 1130,
+    "active": true
+  },
+  {
+    "code": "alimentazione.industrial_distribution",
+    "parentCode": "alimentazione",
+    "name": "Distribuzione elettrica",
+    "sortOrder": 1140,
+    "active": true
+  },
+  {
+    "code": "alimentazione.industrial_power",
+    "parentCode": "alimentazione",
+    "name": "Alimentatori e trasformatori industriali",
+    "sortOrder": 1150,
+    "active": true
+  },
+  {
+    "code": "automazione.industrial_motors",
+    "parentCode": "automazione",
+    "name": "Motori e accessori",
+    "sortOrder": 1160,
+    "active": true
+  },
+  {
+    "code": "automazione.industrial_drives",
+    "parentCode": "automazione",
+    "name": "Azionamenti e accessori",
+    "sortOrder": 1170,
+    "active": true
+  },
+  {
+    "code": "automazione.industrial_software",
+    "parentCode": "automazione",
+    "name": "Software industriale",
+    "sortOrder": 1180,
+    "active": true
+  },
+  {
+    "code": "automazione.industrial_automation",
+    "parentCode": "automazione",
+    "name": "Controllori e I/O",
+    "sortOrder": 1190,
+    "active": true
+  },
+  {
+    "code": "automazione.industrial_networking",
+    "parentCode": "automazione",
+    "name": "Reti industriali",
+    "sortOrder": 1200,
+    "active": true
+  }
+]

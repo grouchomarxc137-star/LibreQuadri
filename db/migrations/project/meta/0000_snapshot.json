@@ -1,0 +1,748 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "9d4e698a-f6ab-4f46-acbe-2fcd294c0af3",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "prj_group": {
+      "name": "prj_group",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "uuid": {
+          "name": "uuid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "prj_group_uuid_unique": {
+          "name": "prj_group_uuid_unique",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": true
+        },
+        "prj_group_sort_order_unique": {
+          "name": "prj_group_sort_order_unique",
+          "columns": [
+            "sort_order"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "prj_line": {
+      "name": "prj_line",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "uuid": {
+          "name": "uuid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "group_id": {
+          "name": "group_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "line_type": {
+          "name": "line_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "snapshot_id": {
+          "name": "snapshot_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "description_override": {
+          "name": "description_override",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "quantity": {
+          "name": "quantity",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "purchase_discount_chain": {
+          "name": "purchase_discount_chain",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "purchase_discount_bp": {
+          "name": "purchase_discount_bp",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "net_cost_unit_e4": {
+          "name": "net_cost_unit_e4",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "markup_bp": {
+          "name": "markup_bp",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "sale_price_unit_e4": {
+          "name": "sale_price_unit_e4",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "line_discount_bp": {
+          "name": "line_discount_bp",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": 0
+        },
+        "line_total_e4": {
+          "name": "line_total_e4",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "price_locked": {
+          "name": "price_locked",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": 0
+        }
+      },
+      "indexes": {
+        "prj_line_uuid_unique": {
+          "name": "prj_line_uuid_unique",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": true
+        },
+        "prj_line_group_sort_unique": {
+          "name": "prj_line_group_sort_unique",
+          "columns": [
+            "group_id",
+            "sort_order"
+          ],
+          "isUnique": true
+        },
+        "prj_line_snapshot_idx": {
+          "name": "prj_line_snapshot_idx",
+          "columns": [
+            "snapshot_id"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "prj_line_group_id_prj_group_id_fk": {
+          "name": "prj_line_group_id_prj_group_id_fk",
+          "tableFrom": "prj_line",
+          "tableTo": "prj_group",
+          "columnsFrom": [
+            "group_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "prj_line_snapshot_id_prj_product_snapshot_id_fk": {
+          "name": "prj_line_snapshot_id_prj_product_snapshot_id_fk",
+          "tableFrom": "prj_line",
+          "tableTo": "prj_product_snapshot",
+          "columnsFrom": [
+            "snapshot_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "prj_line_type_check": {
+          "name": "prj_line_type_check",
+          "value": "\"prj_line\".\"line_type\" in ('product', 'free_text', 'labour', 'note')"
+        },
+        "prj_line_product_snapshot_check": {
+          "name": "prj_line_product_snapshot_check",
+          "value": "(\"prj_line\".\"line_type\" = 'product') = (\"prj_line\".\"snapshot_id\" is not null)"
+        },
+        "prj_line_quantity_check": {
+          "name": "prj_line_quantity_check",
+          "value": "typeof(\"prj_line\".\"quantity\") in ('integer', 'real') and \"prj_line\".\"quantity\" > 0"
+        },
+        "prj_line_money_integer_check": {
+          "name": "prj_line_money_integer_check",
+          "value": "(\"prj_line\".\"net_cost_unit_e4\" is null or typeof(\"prj_line\".\"net_cost_unit_e4\") = 'integer') and (\"prj_line\".\"sale_price_unit_e4\" is null or typeof(\"prj_line\".\"sale_price_unit_e4\") = 'integer') and (\"prj_line\".\"line_total_e4\" is null or typeof(\"prj_line\".\"line_total_e4\") = 'integer')"
+        },
+        "prj_line_basis_points_integer_check": {
+          "name": "prj_line_basis_points_integer_check",
+          "value": "(\"prj_line\".\"purchase_discount_bp\" is null or typeof(\"prj_line\".\"purchase_discount_bp\") = 'integer') and (\"prj_line\".\"markup_bp\" is null or typeof(\"prj_line\".\"markup_bp\") = 'integer') and typeof(\"prj_line\".\"line_discount_bp\") = 'integer'"
+        },
+        "prj_line_price_locked_check": {
+          "name": "prj_line_price_locked_check",
+          "value": "\"prj_line\".\"price_locked\" in (0, 1)"
+        }
+      }
+    },
+    "lqp_meta": {
+      "name": "lqp_meta",
+      "columns": {
+        "key": {
+          "name": "key",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "value": {
+          "name": "value",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "prj_product_snapshot": {
+      "name": "prj_product_snapshot",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "uuid": {
+          "name": "uuid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "brand_marchio": {
+          "name": "brand_marchio",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "brand_name": {
+          "name": "brand_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "manufacturer_code": {
+          "name": "manufacturer_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "ean": {
+          "name": "ean",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "short_description": {
+          "name": "short_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "unit_of_measure": {
+          "name": "unit_of_measure",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "category_code": {
+          "name": "category_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "category_path_label": {
+          "name": "category_path_label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "family_code": {
+          "name": "family_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "family_name": {
+          "name": "family_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "price_issuer_sigla": {
+          "name": "price_issuer_sigla",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "price_listino_number": {
+          "name": "price_listino_number",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "price_valid_from": {
+          "name": "price_valid_from",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "list_price_unit_e4": {
+          "name": "list_price_unit_e4",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "price_multiplier_original": {
+          "name": "price_multiplier_original",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "snapshot_taken_at": {
+          "name": "snapshot_taken_at",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "prj_product_snapshot_uuid_unique": {
+          "name": "prj_product_snapshot_uuid_unique",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": true
+        },
+        "prj_product_snapshot_product_unique": {
+          "name": "prj_product_snapshot_product_unique",
+          "columns": [
+            "brand_marchio",
+            "manufacturer_code"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "prj_product_snapshot_price_integer_check": {
+          "name": "prj_product_snapshot_price_integer_check",
+          "value": "\"prj_product_snapshot\".\"list_price_unit_e4\" is null or typeof(\"prj_product_snapshot\".\"list_price_unit_e4\") = 'integer'"
+        },
+        "prj_product_snapshot_multiplier_check": {
+          "name": "prj_product_snapshot_multiplier_check",
+          "value": "\"prj_product_snapshot\".\"price_multiplier_original\" is null or (typeof(\"prj_product_snapshot\".\"price_multiplier_original\") = 'integer' and \"prj_product_snapshot\".\"price_multiplier_original\" > 0)"
+        }
+      }
+    },
+    "prj_product_snapshot_attribute": {
+      "name": "prj_product_snapshot_attribute",
+      "columns": {
+        "snapshot_id": {
+          "name": "snapshot_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "attribute_code": {
+          "name": "attribute_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "attribute_name": {
+          "name": "attribute_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "unit": {
+          "name": "unit",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "value_num": {
+          "name": "value_num",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "option_value": {
+          "name": "option_value",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "option_label": {
+          "name": "option_label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "value_bool": {
+          "name": "value_bool",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "value_text": {
+          "name": "value_text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "prj_product_snapshot_attribute_snapshot_id_prj_product_snapshot_id_fk": {
+          "name": "prj_product_snapshot_attribute_snapshot_id_prj_product_snapshot_id_fk",
+          "tableFrom": "prj_product_snapshot_attribute",
+          "tableTo": "prj_product_snapshot",
+          "columnsFrom": [
+            "snapshot_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "prj_product_snapshot_attribute_snapshot_id_attribute_code_pk": {
+          "columns": [
+            "snapshot_id",
+            "attribute_code"
+          ],
+          "name": "prj_product_snapshot_attribute_snapshot_id_attribute_code_pk"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "prj_product_snapshot_attribute_type_check": {
+          "name": "prj_product_snapshot_attribute_type_check",
+          "value": "\"prj_product_snapshot_attribute\".\"data_type\" in ('number', 'enum', 'boolean', 'text')"
+        },
+        "prj_product_snapshot_attribute_one_value_check": {
+          "name": "prj_product_snapshot_attribute_one_value_check",
+          "value": "(\"prj_product_snapshot_attribute\".\"value_num\" is not null) + (\"prj_product_snapshot_attribute\".\"option_value\" is not null) + (\"prj_product_snapshot_attribute\".\"value_bool\" is not null) + (\"prj_product_snapshot_attribute\".\"value_text\" is not null) = 1"
+        },
+        "prj_product_snapshot_attribute_bool_check": {
+          "name": "prj_product_snapshot_attribute_bool_check",
+          "value": "\"prj_product_snapshot_attribute\".\"value_bool\" is null or \"prj_product_snapshot_attribute\".\"value_bool\" in (0, 1)"
+        }
+      }
+    },
+    "prj_project": {
+      "name": "prj_project",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "uuid": {
+          "name": "uuid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "number": {
+          "name": "number",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "project_type": {
+          "name": "project_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "norm_code": {
+          "name": "norm_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "executor": {
+          "name": "executor",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "project_date": {
+          "name": "project_date",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'draft'"
+        },
+        "currency": {
+          "name": "currency",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'EUR'"
+        },
+        "global_discount_bp": {
+          "name": "global_discount_bp",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": 0
+        },
+        "customer_uuid": {
+          "name": "customer_uuid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "customer_name": {
+          "name": "customer_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "customer_description": {
+          "name": "customer_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "customer_vat": {
+          "name": "customer_vat",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "customer_address": {
+          "name": "customer_address",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "customer_contacts": {
+          "name": "customer_contacts",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "prj_project_uuid_unique": {
+          "name": "prj_project_uuid_unique",
+          "columns": [
+            "uuid"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "prj_project_singleton_check": {
+          "name": "prj_project_singleton_check",
+          "value": "\"prj_project\".\"id\" = 1"
+        },
+        "prj_project_status_check": {
+          "name": "prj_project_status_check",
+          "value": "\"prj_project\".\"status\" in ('draft', 'sent', 'accepted', 'lost', 'archived')"
+        },
+        "prj_project_type_norm_check": {
+          "name": "prj_project_type_norm_check",
+          "value": "(\"prj_project\".\"project_type\" = 'civil' and \"prj_project\".\"norm_code\" = 'CEI EN 60898') or (\"prj_project\".\"project_type\" = 'industrial' and \"prj_project\".\"norm_code\" = 'CEI EN 60947-2')"
+        },
+        "prj_project_discount_integer_check": {
+          "name": "prj_project_discount_integer_check",
+          "value": "typeof(\"prj_project\".\"global_discount_bp\") = 'integer'"
+        }
+      }
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}

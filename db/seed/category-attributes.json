@@ -1,0 +1,2610 @@
+[
+  {
+    "categoryCode": "protezione.interruttori_automatici",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_automatici",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_automatici",
+    "attributeCode": "trip_curve",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_automatici",
+    "attributeCode": "declared_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "trip_curve",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "declared_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "rated_residual_current",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.magnetotermici_differenziali",
+    "attributeCode": "residual_current_type",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.differenziali_puri",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.differenziali_puri",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.differenziali_puri",
+    "attributeCode": "rated_residual_current",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.differenziali_puri",
+    "attributeCode": "residual_current_type",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.blocchi_differenziali",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.blocchi_differenziali",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.blocchi_differenziali",
+    "attributeCode": "rated_residual_current",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.blocchi_differenziali",
+    "attributeCode": "residual_current_type",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "trip_curve",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "declared_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "rated_residual_current",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.rilevatori_arco",
+    "attributeCode": "residual_current_type",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati",
+    "attributeCode": "rated_ultimate_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati_differenziali",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati_differenziali",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati_differenziali",
+    "attributeCode": "rated_ultimate_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_aperti",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_aperti",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_aperti",
+    "attributeCode": "rated_ultimate_breaking_capacity",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.salvamotori",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.portafusibili",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.fusibili",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori_differenziali",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori_differenziali",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori_fusibili",
+    "attributeCode": "poles",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.sezionatori_fusibili",
+    "attributeCode": "rated_current",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati",
+    "attributeCode": "trip_unit_type",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_scatolati_differenziali",
+    "attributeCode": "trip_unit_type",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.interruttori_aperti",
+    "attributeCode": "trip_unit_type",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "trip_curve",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "declared_breaking_capacity",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "rated_short_circuit_capacity",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "rated_ultimate_breaking_capacity",
+    "sortOrder": 140,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "rated_residual_current",
+    "sortOrder": 150,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "residual_current_type",
+    "sortOrder": 160,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "trip_unit_type",
+    "sortOrder": 170,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 180,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 190,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_protection",
+    "attributeCode": "coil_voltage",
+    "sortOrder": 200,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_fuses",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "current_setting_min",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "current_setting_max",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "declared_breaking_capacity",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 140,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_motor_protection",
+    "attributeCode": "trip_unit_type",
+    "sortOrder": 150,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "current_setting_min",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "current_setting_max",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "protezione.industrial_overload",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "manovra.industrial_switching",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "coil_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "rated_power",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_contactors",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "current_setting_min",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "current_setting_max",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "rated_power",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 140,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 150,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_starters",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 160,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "poles",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "rated_current",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "coil_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 140,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "analog_inputs",
+    "sortOrder": 150,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_control",
+    "attributeCode": "analog_outputs",
+    "sortOrder": 160,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "comando.industrial_signalling",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_enclosures",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "coil_voltage",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_terminals",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "analog_inputs",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "misura.industrial_measurement",
+    "attributeCode": "analog_outputs",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_reactive",
+    "attributeCode": "apparent_power",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_distribution",
+    "attributeCode": "poles",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "rated_current",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "output_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "apparent_power",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "alimentazione.industrial_power",
+    "attributeCode": "rated_power",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "rated_power",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "rated_torque",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_motors",
+    "attributeCode": "rated_current",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "rated_power",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "rated_torque",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "rated_voltage",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "rated_current",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_drives",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_software",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "analog_inputs",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_automation",
+    "attributeCode": "analog_outputs",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "article_kind",
+    "sortOrder": 0,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "ip_rating",
+    "sortOrder": 10,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "width",
+    "sortOrder": 20,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "height",
+    "sortOrder": 30,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "depth",
+    "sortOrder": 40,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "diameter",
+    "sortOrder": 50,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "software_version",
+    "sortOrder": 60,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "licence_type",
+    "sortOrder": 70,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "software_delivery",
+    "sortOrder": 80,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "supply_voltage",
+    "sortOrder": 90,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 100,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "automazione.industrial_networking",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "digital_inputs",
+    "sortOrder": 110,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "digital_outputs",
+    "sortOrder": 120,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "analog_inputs",
+    "sortOrder": 130,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  },
+  {
+    "categoryCode": "accessori.industrial_accessories",
+    "attributeCode": "analog_outputs",
+    "sortOrder": 140,
+    "isFilterable": true,
+    "isRequired": false,
+    "filterWidget": "checkbox"
+  }
+]
